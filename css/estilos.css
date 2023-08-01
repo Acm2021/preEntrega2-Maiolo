@@ -1,0 +1,307 @@
+
+/* RESET DE ESTILOS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILO DE HEADER*/
+
+.banner {
+    background-image: url('../img/glaciarPortada.jpg');
+    background-size: cover; /* Ajusta la imagen al tamaño del banner */
+    background-position: center; /* Centra la imagen en el banner */
+    width: 95%;
+    height: 200px;
+    margin-left: 10px;
+   
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.barraNavegacion {
+    text-align: center;
+    background-color: #3f7eb9;
+    background-size: cover; /* Ajusta la imagen al tamaño del banner */
+    background-position: center; /* Centra la imagen en el banner */
+    width: 95%;
+    height: 30px;
+    margin-left: 10px;
+    text-align: center;
+    
+    
+}
+
+
+.barraNavegacionUl{
+    list-style: none;
+    text-align: center;
+
+}
+
+.elementosListaNavLi {
+    display: inline-block;
+    color: rgb(240, 253, 255);
+    margin-top: 5px;
+    padding-right: 150px;
+    font-size: 15px;
+}
+
+.elementosListaNav{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(234, 241, 241);
+}
+
+
+
+/* ESTILO DE BODY */
+
+.contenedorBody{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(202, 236, 241);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.tituloPrincipal {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+.tituloSecundario {
+    text-align: right;
+    text-decoration: none;
+    margin-top: 100px;
+    margin-right: 500px;
+}
+
+.parrafoPrincipal{
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 850px;
+    margin-right: 150px;
+}
+
+.imagenPpal{
+
+    width: 40%;
+    height: 40%;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid black;
+    font-size: small;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.iconoWhatsap{
+    width: 40px;
+    height: 40px;
+    margin: right;
+}
+
+/* CONTACTOS */
+
+.tituloPrincipalContato{
+    margin-top: 10px;
+    font-size: x-large;
+
+}
+
+/* Formulario */
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.campos {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* GALERIA */
+
+.tituloPrincipalGaleria{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: xx-large;
+    text-align: left;
+}
+
+.tituloSecundarioGaleria{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size:x-large;
+    text-align: left;
+}
+
+
+.figGaleria {
+    
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+    border: 4px solid #333;
+    border-radius: 10px;
+
+    
+}
+
+.imgDestino {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    background-color: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+
+/* NOSOTROS */
+
+.tituloPrincipalUbicacion{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 35px;
+    text-align: left;
+}
+
+
+.parrafoUbicacion{
+text-align: justify;
+margin-top: 40px;
+margin-left: 20px;
+padding-right: 1000px;
+}
+
+.tituloSecundarioUbicacion{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 30px;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.mapas {
+    margin-top: 40px;
+    margin-left: 30px;
+    display: block;
+    border-color: #333;
+    border-width: 100 ;
+}
+
+/* SERVICIOS */
+
+.divisionEnServicios{
+    width: 95%;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #faf9ef;
+}
+
+.tituloPpalServicios{
+    margin-top: 70px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+    color: #083877;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.iconoReservas{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 30 px;
+}
+
+
+.listaServicios{
+
+    float: left; /* Flota ambos elementos a la izquierda */
+    padding-left: 60px;
+    width: 20%; /* Asigna el ancho del 50% a cada lista */
+   
+
+}
+
+.elementoListaServicios{
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 10px;
+    text-align: left;
+    color: #595b5e;
+    font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
