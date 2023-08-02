@@ -235,15 +235,6 @@ label {
 
 /* SERVICIOS */
 
-.divisionEnServicios{
-    width: 95%;
-    height: 600px;
-    margin-left: 15px;
-    margin-top: 10px;
-    text-align: center;
-    padding-top: 30px;
-    background-color: #faf9ef;
-}
 
 .tituloPpalServicios{
     margin-top: 70px;
@@ -260,22 +251,10 @@ label {
 .iconoReservas{
     width: 100px;
     height: 100px;
-    margin-top: 20px;
-    margin-left: 650px;
-    margin-bottom: 20px;
     border-radius: 10px;
     padding-top: 30 px;
 }
 
-
-.listaServicios{
-
-    float: left; /* Flota ambos elementos a la izquierda */
-    padding-left: 60px;
-    width: 20%; /* Asigna el ancho del 50% a cada lista */
-   
-
-}
 
 .elementoListaServicios{
     margin-top: 10px;
